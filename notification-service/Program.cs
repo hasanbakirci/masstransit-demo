@@ -8,13 +8,13 @@ IHost host = Host.CreateDefaultBuilder(args)
         //services.AddHostedService<Worker>();
         var bus = BusConfigurator.ConfigureBus(factory =>
         {
-            factory.ReceiveEndpoint(RabbitMqConstants.SubServiceQueue, endpoint =>
+            factory.ReceiveEndpoint(RabbitMqConstants.NotificationServiceQueue, endpoint =>
             {
-                endpoint.Consumer<BookRegistrationCommandConsumer>();
+                endpoint.Consumer<BookNotificationEventConsumer>();
             });
         });
         bus.Start();
-
+        
     })
     .Build();
 

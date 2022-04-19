@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sub-service", "sub-service\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core", "core\core.csproj", "{C42E45D7-62F4-43B2-AC61-FD85A7106D83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mail-service", "mail-service\mail-service.csproj", "{EA729131-ED3A-48FF-8F03-ACB324F85A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notification-service", "notification-service\notification-service.csproj", "{650366E9-A80A-473C-B20B-F3369864FD2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{C42E45D7-62F4-43B2-AC61-FD85A7106D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C42E45D7-62F4-43B2-AC61-FD85A7106D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C42E45D7-62F4-43B2-AC61-FD85A7106D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA729131-ED3A-48FF-8F03-ACB324F85A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA729131-ED3A-48FF-8F03-ACB324F85A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA729131-ED3A-48FF-8F03-ACB324F85A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA729131-ED3A-48FF-8F03-ACB324F85A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650366E9-A80A-473C-B20B-F3369864FD2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650366E9-A80A-473C-B20B-F3369864FD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650366E9-A80A-473C-B20B-F3369864FD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650366E9-A80A-473C-B20B-F3369864FD2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
