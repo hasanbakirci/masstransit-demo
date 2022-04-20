@@ -1,5 +1,5 @@
 using core;
-using core.Consumers;
+using mail_service.Consumers;
 using MassTransit;
 
 IHost host = Host.CreateDefaultBuilder(args)
@@ -10,7 +10,7 @@ IHost host = Host.CreateDefaultBuilder(args)
         {
             factory.ReceiveEndpoint(RabbitMqConstants.EmailServiceQueue, endpoint =>
             {
-                endpoint.Consumer<BookEmailEventConsumer>();
+                endpoint.Consumer<BookEMailEventConsumer>();
             });
         });
         bus.Start();

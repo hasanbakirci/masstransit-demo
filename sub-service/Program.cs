@@ -1,6 +1,6 @@
 using core;
-using core.Consumers;
 using MassTransit;
+using sub_service.Consumers;
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>

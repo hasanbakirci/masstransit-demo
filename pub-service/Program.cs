@@ -5,19 +5,6 @@ using MassTransit;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// builder.Services.AddMassTransit(x =>
-// {
-//     x.UsingRabbitMq((context, configurator) =>
-//     {
-//         configurator.Host("amqp://localhost/", h =>
-//             {
-//                 h.Username("guest");
-//                 h.Password("guest");
-//             }
-//             );
-//         configurator.ConfigureEndpoints(context);
-//     });
-// });
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

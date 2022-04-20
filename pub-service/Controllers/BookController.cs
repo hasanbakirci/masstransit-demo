@@ -31,4 +31,11 @@ public class BookController : ControllerBase
         await endPoint.Send<IBookRegistrationCommand>(new {request.Id, request.Name});
         return Ok($"{request.Name} : send olarak gönderildi.");
     }
+    
+    [HttpPost("/multibus")]
+    public async Task<IActionResult> MultibusBook([FromBody] CreateBookRequest request)
+    {
+        await _bus.Publish<IMultibusEvent>(new {request.Id,request.Name});
+        return Ok($"{request.Name} : publish multibus olarak gönderildi.");
+    }
 }

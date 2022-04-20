@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mail-service", "mail-servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "notification-service", "notification-service\notification-service.csproj", "{650366E9-A80A-473C-B20B-F3369864FD2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multibus-service", "multibus-service\multibus-service.csproj", "{22A7681D-A524-4474-B29C-1A321D540A43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{650366E9-A80A-473C-B20B-F3369864FD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{650366E9-A80A-473C-B20B-F3369864FD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{650366E9-A80A-473C-B20B-F3369864FD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A7681D-A524-4474-B29C-1A321D540A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A7681D-A524-4474-B29C-1A321D540A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A7681D-A524-4474-B29C-1A321D540A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A7681D-A524-4474-B29C-1A321D540A43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
